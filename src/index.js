@@ -2,7 +2,7 @@ const letters = require('./letters.json');
 const letters_knife = require('../node_modules/telephone-booth/index.json');
 const cangjie = require('./cangjie.json');
 
-class Bullseye {
+class Sunflower {
   constructor(string, d = false) {
     this.debug = d;
     this.phrase = string || '';
@@ -100,7 +100,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['twenty'],
+      wide: cangjie['moon'],
       web: []
     };
     
@@ -116,19 +116,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['disaster'];
+          result.wide = cangjie['predict'];
           break;
 
         case 'function':
-          result.wide = cangjie['hand'];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'behavior':
-          result.wide = cangjie['corpse'];
+          result.wide = cangjie['twenty'];
           break;
 
         case 'result':
-          result.wide = cangjie['dagger-axe'];
+          result.wide = cangjie['big'];
           break;
       }
     }
@@ -140,7 +140,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['mountain'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -156,19 +156,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['people'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['field'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['female'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['one'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -180,7 +180,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['bow'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -196,19 +196,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['disaster'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['people'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['big'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['day'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -220,7 +220,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['predict'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -236,19 +236,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['hand'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['ten'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['fire'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['gold'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -260,7 +260,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['heart'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -276,19 +276,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['disaster'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['people'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['bamboo'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['female'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -300,7 +300,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['dagger-axe'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -316,19 +316,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['gold'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['big'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['mountain'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['ten'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -340,7 +340,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['predict'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -356,19 +356,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['heart'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['earth'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['bow'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['middle'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -380,7 +380,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['moon'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -396,19 +396,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['dagger-axe'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['fire'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['people'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['dagger-axe'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -420,7 +420,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['moon'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -436,15 +436,15 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'function':
-          result.wide = cangjie['middle'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['female'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['one'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -456,7 +456,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['twenty'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -472,19 +472,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['people'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['big'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['corpse'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['hand'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -496,7 +496,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['fire'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -512,19 +512,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['big'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['hand'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['gold'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['middle'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -536,7 +536,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['people'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -552,19 +552,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['bow'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['fire'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['female'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['one'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -576,7 +576,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['water'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -592,19 +592,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['female'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['big'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['fire'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['predict'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -616,7 +616,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['water'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -632,19 +632,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['day'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['bamboo'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['middle'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['one'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -656,7 +656,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['dagger-axe'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -672,15 +672,15 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'function':
-          result.wide = cangjie['heart'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['predict'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['one'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -692,7 +692,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['bow'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -708,19 +708,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['day'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['heart'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['disaster'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['one'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -732,7 +732,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['predict'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -748,19 +748,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['day'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['fire'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['mountain'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['female'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -772,7 +772,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['one'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -788,19 +788,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['corpse'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['moon'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['corpse'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['ten'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -812,7 +812,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['mouth'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -828,19 +828,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['field'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['day'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['moon'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['day'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -852,7 +852,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['one'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -868,19 +868,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['earth'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['predict'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['bamboo'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['mountain'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -892,7 +892,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['bow'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -908,19 +908,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['fire'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['big'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['bow'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['mouth'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -932,7 +932,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['hand'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -948,19 +948,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['corpse'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['fire'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['female'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['one'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -972,7 +972,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['people'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -988,19 +988,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['middle'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['people'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['bamboo'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['mountain'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -1012,7 +1012,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['people'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -1028,11 +1028,11 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'behavior':
-          result.wide = cangjie['one'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['female'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -1044,7 +1044,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['twenty'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -1060,19 +1060,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['mountain'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['disaster'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['mouth'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['bow'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -1084,7 +1084,7 @@ class Bullseye {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['hand'],
+      wide: cangjie[''],
       web: []
     };
     
@@ -1100,19 +1100,19 @@ class Bullseye {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['moon'];
+          result.wide = cangjie[''];
           break;
 
         case 'function':
-          result.wide = cangjie['disaster'];
+          result.wide = cangjie[''];
           break;
 
         case 'behavior':
-          result.wide = cangjie['water'];
+          result.wide = cangjie[''];
           break;
 
         case 'result':
-          result.wide = cangjie['mountain'];
+          result.wide = cangjie[''];
           break;
       }
     }
@@ -1121,4 +1121,4 @@ class Bullseye {
   }
 }
 
-module.exports.Bullseye = Bullseye;
+module.exports.Sunflower = Sunflower;
