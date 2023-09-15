@@ -692,7 +692,7 @@ class Sunflower {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['bow'],
       web: []
     };
     
@@ -708,19 +708,19 @@ class Sunflower {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['mouth'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['gold'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bow'];
           break;
       }
     }
